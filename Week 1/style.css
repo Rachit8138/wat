@@ -1,0 +1,23 @@
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  color: #333;
+  font-weight: 600;
+}
+
+#studentForm input {
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px !important;
+}
+
+table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}

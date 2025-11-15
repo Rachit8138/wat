@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Management</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+
+  <div class="container">
+    <h2 class="text-center mb-4">Student Management</h2>
+
+    <form id="studentForm" class="mb-3">
+      <div class="row g-2">
+        <div class="col-md-4">
+          <input type="text" id="name" class="form-control" placeholder="Name">
+        </div>
+        <div class="col-md-4">
+          <input type="number" id="age" class="form-control" placeholder="Age">
+        </div>
+        <div class="col-md-4">
+          <input type="text" id="grade" class="form-control" placeholder="Grade">
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <button type="submit" class="btn btn-primary px-4">Add / Update</button>
+      </div>
+    </form>
+
+    <div id="dialog" class="alert alert-danger d-none text-center"></div>
+
+    <table class="table table-bordered text-center mt-3">
+      <thead class="table-light">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Grade</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="studentTable"></tbody>
+    </table>
+  </div>
+
+  <script>
+    const form = document.getElementById('studentForm');
+    const nameField = document.getElementById('name');
+    const ageField = document.getElementById('age');
+    const gradeField = document.getElementById('grade');
+    const table = document.getElementById('studentTable');
+    const dialog = document.getElementById('dialog');
+
+    let students = [];
+    let editIndex = -1;
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+
+      const name = nameField.value.trim();
+      const age = ageField.value.trim();
+      const grade = gradeField.value.trim();
+
+      if (!name || !age || !grade) {
+        showDialog('All fields are required!');
+        return;
+      }
+
+      if (editIndex === -1) {
+        students.push({ name, age, grade });
+      } else {
+        students[editIndex] = { name, age, grade };
+        editIndex = -1;
+      }
+
+      renderTable();
+      form.reset();
+    });
+
+    function renderTable() {
+      table.innerHTML = '';
+      students.forEach((s, i) => {
+        table.innerHTML += `
+          <tr>
+            <td>${s.name}</td>
+            <td>${s.age}</td>
+            <td>${s.grade}</td>
+            <td>
+              <button class="btn btn-sm btn-warning" onclick="editStudent(${i})">Edit</button>
+              <button class="btn btn-sm btn-danger" onclick="deleteStudent(${i})">Delete</button>
+            </td>
+          </tr>`;
+      });
+    }
+
+    function editStudent(i) {
+      const s = students[i];
+      nameField.value = s.name;
+      ageField.value = s.age;
+      gradeField.value = s.grade;
+      editIndex = i;
+    }
+
+    function deleteStudent(i) {
+      students.splice(i, 1);
+      renderTable();
+    }
+
+    function showDialog(msg) {
+      dialog.textContent = msg;
+      dialog.classList.remove('d-none');
+      setTimeout(() => dialog.classList.add('d-none'), 2000);
+    }
+  </script>
+</body>
+</html>

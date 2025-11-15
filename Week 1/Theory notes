@@ -1,0 +1,58 @@
+Stateless
+
+Definition: A system or protocol is stateless when each request is independent and does not rely on previous interactions. The server does not store any session information between requests.
+Example: HTTP is stateless because every request from a client to a server is treated as a new interaction.
+
+
+What is State?
+
+Definition: State refers to stored information about the current status or context of an interaction or process. In computing, state often means data retained between operations (e.g., user session, variables).
+Example: A shopping cart in an e-commerce site represents state because it remembers selected items across multiple page requests.
+
+
+How is HTTPS Secured?
+
+HTTPS (HyperText Transfer Protocol Secure) uses:
+
+1. TLS/SSL encryption to secure data in transit.
+2. Authentication via digital certificates to verify the server’s identity.
+3. Integrity checks to ensure data is not tampered with.
+
+
+Process: When a browser connects to a server using HTTPS, they perform a handshake to establish an encrypted channel using asymmetric and symmetric cryptography.
+
+
+What is JSON?
+Definition
+
+JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.
+
+History
+
+Introduced by Douglas Crockford in early 2000s as a subset of JavaScript syntax for data exchange.
+Became widely adopted for APIs and web services due to simplicity and language independence.
+
+Format
+
+Text-based, uses key-value pairs.
+Data types: strings, numbers, booleans, arrays, objects, and null.
+Example:
+JSON{  "name": "Alice",  "age": 25,  "skills": ["Python", "Java"]}Show more lines
+
+
+Advantages
+
+Human-readable and easy to understand.
+Language-independent and widely supported.
+Lightweight compared to XML.
+
+Disadvantages
+
+No support for comments.
+Limited data types (cannot represent complex structures like dates without conventions).
+Verbose for very large datasets compared to binary formats.
+
+Alternatives to JSON
+
+XML (Extensible Markup Language): Older, more verbose, supports schemas.
+YAML (YAML Ain’t Markup Language): More human-friendly, supports comments.

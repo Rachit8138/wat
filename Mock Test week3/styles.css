@@ -1,0 +1,205 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Henny+Penny&family=Mouse+Memoirs&display=swap');
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5DC6F;
+    font-family: 'Fredoka', sans-serif;
+    color: #3D2817;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #F5DC6F;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    height: 50px;
+    width: 1;
+     /* keeps aspect ratio */
+}
+
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.top-bar h1 {
+    font-family: 'Henny Penny', cursive;
+    font-size: 48px;
+    color: #3D2817;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 18px;
+    color: #3D2817;
+    text-align: right;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    background-color: #b1a221;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-buttons button {
+    background-color: #3D2817;
+    color: #F5F5DC;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* Approval Message */
+.approval-message {
+    background-color: #F5DC6F;
+    text-align: center;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 20px;
+    color: #3D2817;
+    padding: 15px;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Sidebar */
+.sidebar {
+    flex-shrink: 50;
+    margin-top: 300px;
+}
+
+.joke-box {
+    background-color: #F5F5DC;
+    border: 3px solid #3D2817;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.joke-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.joke-box h3 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 20px;
+    color: #3D2817;
+    margin-bottom: 10px;
+}
+
+.joke-question {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 16px;
+    color: #3D2817;
+    margin-bottom: 10px;
+}
+
+.joke-answer {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 14px;
+    color: #3D2817;
+    font-style: italic;
+}
+
+/* Cards Grid */
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+/* Card Styles */
+.card {    
+    background-color: #F5F5DC;
+    border: 3px solid #3D2817;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.card h2 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 24px;
+    color: #3D2817;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.card h4 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 16px;
+    color: #3D2817;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style: disc;
+    padding-left: 30px;
+}
+
+.card li {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
+    color: #3D2817;
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: underline;
+}
+
