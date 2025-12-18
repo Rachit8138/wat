@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+<form method = 'POST'>{% csrf_token %}
+    {{form}}
+    <button class="button is-primary" type="submit">Submit</button>
+</form>
+
+{% if form.errors %}
+<div class = "error_message">
+    {{form.errors.title.as_text}}
+</div>
+<a href="{% url 'notes.list' %}" class = "button is-secondary">Cancel</a>
+<a href="{% url 'notes.update' notes.id %}" class="button is-info">Edit</a>
+{% endif %}
+{% endblock %}

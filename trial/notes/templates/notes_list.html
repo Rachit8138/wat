@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container mt-4">
+    <h1 class="title is-3 mb-4">These are the notes</h1>
+
+    <div class="columns is-multiline">
+        {% for note in notes %}
+        <div class="column is-12 is-half-tablet is-half-desktop">
+            <!-- Wrap the card in a link to the note detail -->
+            <a href="{% url 'notes.detail' note.pk %}" class="has-text-dark" style="text-decoration: none;">
+                <div class="card" style="height: 100%;">
+                    <div class="card-content">
+                        <p class="title is-5">{{ note.title }}</p>
+                        <p class="content">{{ note.text|truncatewords:20 }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

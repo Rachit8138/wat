@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="section">
+  <div class="container">
+    <div class="box">
+      <h1 class="title is-3">Welcome to SmartNotes!</h1>
+      <p class="subtitle is-5">Today is {{ today }}</p>
+
+      <!-- Checkout button using Bulma -->
+      <a href="/checkout/" class="button is-primary is-large">
+        <span class="icon">
+          <i class="fas fa-shopping-cart"></i>
+        </span>
+        <span>Checkout</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

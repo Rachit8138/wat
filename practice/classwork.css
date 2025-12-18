@@ -1,0 +1,106 @@
+header{
+    background-color: white;
+}
+#topbar {
+    display: flex;
+    align-items: center;        /* vertically center items */
+    justify-content: space-between; /* space between logo and buttons */
+    padding: 15px 30px;
+    background-color: #f8f8f8;
+}
+
+#logo img {
+    height: 100px;   /* change size here */
+    width: auto;
+    align-items: center;
+}
+
+#actions button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Button styling */
+#login {
+    color:white;
+    background-color: black;
+}
+
+#signup {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-row: span 3 / span 3;
+}
+
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+}
+
+.div3 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 5;
+}
+
+.div4 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.div6 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.div7 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.div8 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+}
+.div2 img{
+    height: 500px;
+    width: auto;
+    align-items: center;
+}
+
+.div3 img{
+    height: 100px;
+    width: auto;
+}
+        
+       
+.div4 img{
+    height: 100px;
+    background-color: hotpink;
+    width: auto;
+}
+        
