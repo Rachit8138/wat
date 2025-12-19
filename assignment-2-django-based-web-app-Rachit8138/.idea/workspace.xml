@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="update in css file" />
+    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="update in css file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +30,9 @@
     &quot;accountId&quot;: &quot;522e5755-4084-47ae-a77a-3c4c832110aa&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../doing assignment/portfolio/includes/css_notes.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -127,6 +132,8 @@
       <workItem from="1766044491941" duration="1148000" />
       <workItem from="1766046222838" duration="916000" />
       <workItem from="1766065551522" duration="483000" />
+      <workItem from="1766066050309" duration="196000" />
+      <workItem from="1766101183569" duration="1633000" />
     </task>
     <task id="LOCAL-00001" summary="update in index.html">
       <option name="closed" value="true" />
@@ -160,7 +167,39 @@
       <option name="project" value="LOCAL" />
       <updated>1766066002714</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update in css file">
+      <option name="closed" value="true" />
+      <created>1766066077744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766066077744</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update in css file">
+      <option name="closed" value="true" />
+      <created>1766066092669</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766066092669</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update in css file">
+      <option name="closed" value="true" />
+      <created>1766066180985</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766066180985</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update in css file">
+      <option name="closed" value="true" />
+      <created>1766066234023</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766066234023</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
