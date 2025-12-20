@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="update in css file" />
+    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="update settings.py">
+      <change afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/council_dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/council_project_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/council_projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,25 +54,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.python.django.customization.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.python.django.customization.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Django tests.Test: ">
     <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
       <module name="doing assignment" />
@@ -144,6 +152,7 @@
       <workItem from="1766108535722" duration="987000" />
       <workItem from="1766207181040" duration="1260000" />
       <workItem from="1766210367819" duration="2995000" />
+      <workItem from="1766225680959" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="update in index.html">
       <option name="closed" value="true" />
@@ -241,7 +250,39 @@
       <option name="project" value="LOCAL" />
       <updated>1766218895944</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update in css file">
+      <option name="closed" value="true" />
+      <created>1766225697608</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766225697608</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update in css file">
+      <option name="closed" value="true" />
+      <created>1766225815616</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766225815616</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update settings.py">
+      <option name="closed" value="true" />
+      <created>1766225836735</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766225836735</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update settings.py">
+      <option name="closed" value="true" />
+      <created>1766225872073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766225872073</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +292,7 @@
     <MESSAGE value="update in index.html" />
     <MESSAGE value="update in html files." />
     <MESSAGE value="update in css file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update in css file" />
+    <MESSAGE value="update settings.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update settings.py" />
   </component>
 </project>
