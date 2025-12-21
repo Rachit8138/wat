@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="update settings.py">
-      <change afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/council_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/council_project_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/council_projects.html" afterDir="false" />
+    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="updated the file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/council_dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/council_project_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/council_projects.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +149,7 @@
       <workItem from="1766108535722" duration="987000" />
       <workItem from="1766207181040" duration="1260000" />
       <workItem from="1766210367819" duration="2995000" />
-      <workItem from="1766225680959" duration="1769000" />
+      <workItem from="1766225680959" duration="5956000" />
     </task>
     <task id="LOCAL-00001" summary="update in index.html">
       <option name="closed" value="true" />
@@ -282,7 +279,39 @@
       <option name="project" value="LOCAL" />
       <updated>1766225872073</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="created new files">
+      <option name="closed" value="true" />
+      <created>1766227760438</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1766227760438</updated>
+    </task>
+    <task id="LOCAL-00018" summary="created workspace">
+      <option name="closed" value="true" />
+      <created>1766227773172</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1766227773172</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated models.py">
+      <option name="closed" value="true" />
+      <created>1766227788339</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1766227788339</updated>
+    </task>
+    <task id="LOCAL-00020" summary="updated the file">
+      <option name="closed" value="true" />
+      <created>1766227798336</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1766227798336</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +322,10 @@
     <MESSAGE value="update in html files." />
     <MESSAGE value="update in css file" />
     <MESSAGE value="update settings.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="update settings.py" />
+    <MESSAGE value="created new files" />
+    <MESSAGE value="created workspace" />
+    <MESSAGE value="updated models.py" />
+    <MESSAGE value="updated the file" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the file" />
   </component>
 </project>
