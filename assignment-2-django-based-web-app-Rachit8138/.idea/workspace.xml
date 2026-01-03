@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="updated the file">
+    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="CHECKPOINT FOR CONTRACTOR DASHBOARD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/contractor_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/contractor_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Django tests.Test: ">
+  <component name="RunManager">
     <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
       <module name="doing assignment" />
       <option name="ENV_FILES" value="" />
@@ -116,17 +119,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Django tests.Test: " />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
         <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
       </set>
     </attachedChunks>
@@ -148,6 +144,12 @@
       <workItem from="1766210367819" duration="2995000" />
       <workItem from="1766225680959" duration="5956000" />
       <workItem from="1766322216757" duration="1198000" />
+      <workItem from="1766462440421" duration="1394000" />
+      <workItem from="1766574778805" duration="803000" />
+      <workItem from="1766682787706" duration="108000" />
+      <workItem from="1766766693343" duration="2176000" />
+      <workItem from="1766840945989" duration="595000" />
+      <workItem from="1766885565831" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="update in index.html">
       <option name="closed" value="true" />
@@ -341,21 +343,198 @@
       <option name="project" value="LOCAL" />
       <updated>1766322330321</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated project">
+      <option name="closed" value="true" />
+      <created>1766462938241</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1766462938241</updated>
+    </task>
+    <task id="LOCAL-00026" summary="set up for base.html">
+      <option name="closed" value="true" />
+      <created>1766462998354</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1766462998354</updated>
+    </task>
+    <task id="LOCAL-00027" summary="handled login for council and contractor part">
+      <option name="closed" value="true" />
+      <created>1766463055684</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1766463055684</updated>
+    </task>
+    <task id="LOCAL-00028" summary="&quot;Configure URL routing for all app pages&quot;">
+      <option name="closed" value="true" />
+      <created>1766575055889</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575055889</updated>
+    </task>
+    <task id="LOCAL-00029" summary="&quot;Create council project management templates&quot;">
+      <option name="closed" value="true" />
+      <created>1766575257400</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575257400</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Create council project management delete feature">
+      <option name="closed" value="true" />
+      <created>1766575291496</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575291496</updated>
+    </task>
+    <task id="LOCAL-00031" summary="&quot;Create council package management templates&quot;">
+      <option name="closed" value="true" />
+      <created>1766575368512</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1766575368512</updated>
+    </task>
+    <task id="LOCAL-00032" summary="made migrations">
+      <option name="closed" value="true" />
+      <created>1766682822684</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1766682822684</updated>
+    </task>
+    <task id="LOCAL-00033" summary="created bid panel">
+      <option name="closed" value="true" />
+      <created>1766682859453</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1766682859453</updated>
+    </task>
+    <task id="LOCAL-00034" summary="created package delete for the council">
+      <option name="closed" value="true" />
+      <created>1766682881527</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1766682881527</updated>
+    </task>
+    <task id="LOCAL-00035" summary="created notification and report dashboard for council">
+      <option name="closed" value="true" />
+      <created>1766766772352</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1766766772352</updated>
+    </task>
+    <task id="LOCAL-00036" summary="python file for notification">
+      <option name="closed" value="true" />
+      <created>1766766818136</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1766766818136</updated>
+    </task>
+    <task id="LOCAL-00037" summary="CHECKPOINT FOR COUNCIL DASHBOARD">
+      <option name="closed" value="true" />
+      <created>1766767142344</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1766767142344</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Created Contractor Dashboard">
+      <option name="closed" value="true" />
+      <created>1766841093639</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1766841093639</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add contractor &quot;Bids&quot; page with filtering and bid listing">
+      <option name="closed" value="true" />
+      <created>1766841208872</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1766841208872</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat(contractor): add browse packages page with bidding actions">
+      <option name="closed" value="true" />
+      <created>1766841314007</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1766841314007</updated>
+    </task>
+    <task id="LOCAL-00041" summary="&quot;CHECKPOINT - model extended&quot;">
+      <option name="closed" value="true" />
+      <created>1766841333108</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1766841333108</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add contractor place bid page with package details and bid form">
+      <option name="closed" value="true" />
+      <created>1766841423797</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1766841423797</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat(contractor): add notifications page UI for contractors">
+      <option name="closed" value="true" />
+      <created>1766841475518</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1766841475518</updated>
+    </task>
+    <task id="LOCAL-00044" summary="CHECKPOINT FOR CONTRACTOR DASHBOARD">
+      <option name="closed" value="true" />
+      <created>1766841539728</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1766841539728</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update in index.html" />
-    <MESSAGE value="update in html files." />
-    <MESSAGE value="update in css file" />
     <MESSAGE value="update settings.py" />
     <MESSAGE value="created new files" />
     <MESSAGE value="created workspace" />
     <MESSAGE value="updated models.py" />
     <MESSAGE value="updated the file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the file" />
+    <MESSAGE value="updated project" />
+    <MESSAGE value="set up for base.html" />
+    <MESSAGE value="handled login for council and contractor part" />
+    <MESSAGE value="&quot;Configure URL routing for all app pages&quot;" />
+    <MESSAGE value="&quot;Create council project management templates&quot;" />
+    <MESSAGE value="Create council project management delete feature" />
+    <MESSAGE value="&quot;Create council package management templates&quot;" />
+    <MESSAGE value="made migrations" />
+    <MESSAGE value="created bid panel" />
+    <MESSAGE value="created package delete for the council" />
+    <MESSAGE value="created notification and report dashboard for council" />
+    <MESSAGE value="python file for notification" />
+    <MESSAGE value="CHECKPOINT FOR COUNCIL DASHBOARD" />
+    <MESSAGE value="Created Contractor Dashboard" />
+    <MESSAGE value="Add contractor &quot;Bids&quot; page with filtering and bid listing" />
+    <MESSAGE value="feat(contractor): add browse packages page with bidding actions" />
+    <MESSAGE value="&quot;CHECKPOINT - model extended&quot;" />
+    <MESSAGE value="Add contractor place bid page with package details and bid form" />
+    <MESSAGE value="feat(contractor): add notifications page UI for contractors" />
+    <MESSAGE value="CHECKPOINT FOR CONTRACTOR DASHBOARD" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHECKPOINT FOR CONTRACTOR DASHBOARD" />
   </component>
 </project>
