@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="CHECKPOINT FOR CONTRACTOR DASHBOARD">
+    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/contractor_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/templates/supply_chain/contractor_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/portfolio/includes/ai_notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/portfolio/includes/ai_notes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,15 +503,37 @@
       <option name="project" value="LOCAL" />
       <updated>1766841539728</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary=" &quot;CHECKPOINT - design stage completed&quot;">
+      <option name="closed" value="true" />
+      <created>1767440838274</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1767440838276</updated>
+    </task>
+    <task id="LOCAL-00046" summary="&quot;CHECKPOINT - content populated from database&quot;">
+      <option name="closed" value="true" />
+      <created>1767440877026</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1767440877026</updated>
+    </task>
+    <task id="LOCAL-00047" summary="&quot;CHECKPOINT - content populated from database&quot;">
+      <option name="closed" value="true" />
+      <created>1767440995404</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1767440995404</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update settings.py" />
-    <MESSAGE value="created new files" />
     <MESSAGE value="created workspace" />
     <MESSAGE value="updated models.py" />
     <MESSAGE value="updated the file" />
@@ -535,6 +557,8 @@
     <MESSAGE value="Add contractor place bid page with package details and bid form" />
     <MESSAGE value="feat(contractor): add notifications page UI for contractors" />
     <MESSAGE value="CHECKPOINT FOR CONTRACTOR DASHBOARD" />
-    <option name="LAST_COMMIT_MESSAGE" value="CHECKPOINT FOR CONTRACTOR DASHBOARD" />
+    <MESSAGE value=" &quot;CHECKPOINT - design stage completed&quot;" />
+    <MESSAGE value="&quot;CHECKPOINT - content populated from database&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;CHECKPOINT - content populated from database&quot;" />
   </component>
 </project>
