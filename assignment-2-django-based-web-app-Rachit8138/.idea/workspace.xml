@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="">
+    <list default="true" id="a49aeb5d-0318-4dc5-a71f-986dfe811c95" name="Changes" comment="commited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doing assignment/portfolio/includes/ai_notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../doing assignment/portfolio/includes/ai_notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doing assignment/Django Project/supply_chain/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -527,14 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1767440995404</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="commited">
+      <option name="closed" value="true" />
+      <created>1767784853228</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1767784853228</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="created workspace" />
     <MESSAGE value="updated models.py" />
     <MESSAGE value="updated the file" />
     <MESSAGE value="updated project" />
@@ -559,6 +564,7 @@
     <MESSAGE value="CHECKPOINT FOR CONTRACTOR DASHBOARD" />
     <MESSAGE value=" &quot;CHECKPOINT - design stage completed&quot;" />
     <MESSAGE value="&quot;CHECKPOINT - content populated from database&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;CHECKPOINT - content populated from database&quot;" />
+    <MESSAGE value="commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="commited" />
   </component>
 </project>
